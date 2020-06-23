@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  prometheus-statsd-exporter:
+  - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2020-06-23T19:11:07.363602-04:00"
+    description: StatsD to Prometheus metrics exporter.
+    digest: b71daed73e16a42b58e3a43c9040beaa2ef4c22a92878c1dde2c1e2257f7d67f
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - metrics
+    - graphite
+    maintainers:
+    - email: git@niclic.com
+      name: niclic
+    name: prometheus-statsd-exporter
+    type: application
+    urls:
+    - https://niclic.github.com/helm-charts/prometheus-statsd-exporter-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-23T19:11:07.362648-04:00"
