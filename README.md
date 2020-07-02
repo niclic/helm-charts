@@ -28,6 +28,8 @@ helm search repo niclic
 
 * [prometheus-statsd-exporter](https://github.com/niclic/helm-charts/tree/master/prometheus-statsd-exporter)
 
+This chart is an updated version of the original unmerged PR in the [Helm Repo](https://github.com/helm/charts/pull/7506).
+
 To install this chart, use something like this.
 
 ```sh
