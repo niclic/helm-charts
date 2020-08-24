@@ -3,8 +3,8 @@ apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   name: {{ include "prometheus-statsd-exporter.serviceAccountName" . }}
-  {{- if .Values.metrics.serviceMonitor.namespace }}
-  namespace: {{ .Values.metrics.serviceMonitor.namespace }}
+  {{- if .Values.serviceMonitor.namespace }}
+  namespace: {{ .Values.serviceMonitor.namespace }}
   {{- end }}
   labels:
     {{- include "prometheus-statsd-exporter.labels" . | nindent 4 }}
