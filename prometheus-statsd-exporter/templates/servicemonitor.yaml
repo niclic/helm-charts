@@ -33,5 +33,5 @@ spec:
       - {{ .Release.Namespace }}
   selector:
     matchLabels:
-      {{- include "prometheus-statsd-exporter.labels" . | nindent 6 }}
+      {{- include "prometheus-statsd-exporter.selectorLabels" . | nindent 6 }}
 {{- end }}
