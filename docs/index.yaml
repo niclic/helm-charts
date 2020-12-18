@@ -3,7 +3,24 @@ entries:
   prometheus-statsd-exporter:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2020-06-24T11:17:06.157742-04:00"
+    created: "2020-12-18T11:49:34.245076Z"
+    deprecated: true
+    description: DEPRECATED - StatsD to Prometheus metrics exporter.
+    digest: 79bb77de2e5c225d773795897504f2fe222582ad26281aa46388c85121501f8c
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - metrics
+    - graphite
+    name: prometheus-statsd-exporter
+    type: application
+    urls:
+    - https://niclic.github.com/helm-charts/prometheus-statsd-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2020-12-18T11:49:34.244474Z"
     description: StatsD to Prometheus metrics exporter.
     digest: 840c1fb4e8aea93c97f4410fba47f27b04eb1ab93ed0f69bdee1d278afb7350e
     home: https://github.com/prometheus/statsd_exporter
@@ -22,7 +39,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2020-06-24T11:17:06.157023-04:00"
+    created: "2020-12-18T11:49:34.240811Z"
     description: StatsD to Prometheus metrics exporter.
     digest: b71daed73e16a42b58e3a43c9040beaa2ef4c22a92878c1dde2c1e2257f7d67f
     home: https://github.com/prometheus/statsd_exporter
@@ -39,4 +56,4 @@ entries:
     urls:
     - https://niclic.github.com/helm-charts/prometheus-statsd-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-24T11:17:06.156059-04:00"
+generated: "2020-12-18T11:49:34.239419Z"
