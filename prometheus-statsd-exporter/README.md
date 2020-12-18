@@ -1,5 +1,8 @@
 # prometheus-statsd-exporter
 
+## Deprecation Warning
+A new version of this chart is available [here](https://github.com/prometheus-community/helm-charts).
+
 The [prometheus-statsd-exporter](https://github.com/prometheus/statsd_exporter) receives StatsD metrics and exports them as Prometheus metrics.
 
 ## Introduction
