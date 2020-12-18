@@ -48,3 +48,16 @@ affinity: {}
 statsdMappingConfig: |-
   defaults:
     timer_type: histogram
+
+
+serviceMonitor:
+  enabled: false
+  namespace: monitoring
+  interval: 30s
+  path: "/metrics"
+  portName: web
+  scheme: http
+  # params:
+  #   token: ['1234567890']
+  # tlsConfig:
+  #   serverName: web-1.example.com
